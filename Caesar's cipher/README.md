@@ -13,4 +13,6 @@ All code is written in C. Use GCC to compile using the following command:
 
 The **rand()** function can be used to generate a random number between 0 to RAND_MAX. But it generates the same number for multiple executions of the binary. To randomize this, the **srand()** function is used with **time** as the seed. This gives us different numbers on different executions of the **generate_key.c** binary file.
 
+<hr>
+
 You dont have to manually write the inputs. Just use piping to supply outputs and inputs to the respective binary files.
